@@ -1,0 +1,14 @@
+1º CRIE UM BANCO DE DADOS.
+
+2º IMPORTE O ARQUIVO tables.SQL PARA O (phpMyAdmin) NO BANCO DE DADOS CRIADO.
+
+3º ALTERE O ARQUIVO connect.php
+
+
+PRONTO SISTEMA FUNCIONANDO...
+
+
+
+ATT.: RODRIGO MARCHI
+
+FACEBOOK: https://www.facebook.com/rodrigo.designerwa

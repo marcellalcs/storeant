@@ -1,0 +1,15 @@
+#conteudo.login-area #co-right{
+	padding-top: 30px;
+	min-height: 230px;
+	border-left: solid 1px #A2A2A2;
+	
+}
+
+#form-login{
+	margin: 30px;
+}
+
+#form-login .btn.btn-neon-orange{
+	float: right;
+	margin: 20px 35px 0 0;
+}

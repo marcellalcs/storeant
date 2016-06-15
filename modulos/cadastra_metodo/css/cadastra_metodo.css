@@ -1,0 +1,94 @@
+/*Cadastra tool*/
+
+#tool-img{
+	width: 80px;
+	height: 80px;
+	border: solid 1px red;
+	margin: 20px auto;
+
+}
+
+.ui-dialog .ui-dialog-content{
+	padding: .5em 8em;
+}
+.cadastra-metodo-area #barra-busca #barra-busca-box .cat-busca-box{
+	font-size: 0.8em;
+	width: 180px;
+}
+
+#id-mtd{
+	width: 550px;
+	margin: 0 auto;
+}
+
+#id-mtd input, #id-mtd textarea{
+	font-size: 0.8em;
+}
+#box-hidden-mtdinfo h1, #box-hidden-mtdinfo h2{
+	text-align: justify;
+}
+
+#box-hidden-mtdinfo.hide-box{
+	display: none;
+}
+#box-hidden-mtdinfo.show-box{
+	display: block;
+}
+.cadastra-metodo-area #barra-busca #barra-busca-box .cat-busca-title div{
+	display: inline-block;
+    max-width: 120px;
+    vertical-align: top
+}
+.ui-dialog{
+	background-color: #53A9CD;
+	width: 60%;
+	border-radius: 10px;
+}
+
+.ui-dialog .ui-dialog-buttonpane button{
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #74D2F2;
+	*background-color: #27B2DF;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#74D2F2), to(#27B2DF));
+	background-image: -webkit-linear-gradient(top, #74D2F2, #27B2DF);
+	background-image: -o-linear-gradient(top, #74D2F2, #27B2DF);
+	background-image: linear-gradient(to bottom, #74D2F2, #27B2DF);
+	background-image: -moz-linear-gradient(top, #74D2F2, #27B2DF);
+	background-repeat: repeat-x;
+	border-color: #27B2DF #27B2DF #ad6704;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.ui-dialog .ui-dialog-buttonpane button:hover,
+.ui-dialog .ui-dialog-buttonpane button:active{
+	color: #FFFFFF;
+	background-color: #27B2DF;
+	*background-color: #df8505;
+}
+.ui-dialog .ui-dialog-buttonpane button:active{
+	background-color: #c67605 \9;
+}
+
+
+#dialog-add-publi{
+	padding: .5em;
+}
+
+form#add-publi{
+	width: 300px;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+form#add-publi input[name='pbc-data']{
+	margin-left: 11px;
+}
+
+#nome-publi{
+	width:555px;
+}
+#abs-publi{
+	width: 555px;
+	height: 40px;
+}
