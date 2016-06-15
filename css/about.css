@@ -1,0 +1,46 @@
+#conteudo-about{
+	width: 940px;
+	margin: 20px auto;
+}
+#conteudo-about p{
+	text-align: justify;
+}
+
+#conteudo-about img{
+	margin: 10px auto;
+	max-width: 500px;
+	display: block;
+}
+
+#conteudo-about .pcard .img-box img#raquel{
+	width: 200px;
+	
+}
+
+.pcard{
+	width: 200px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#conteudo-about .pcard .img-box{
+	width: 200px;
+	height: 220px;
+	overflow: hidden;
+}
+
+#conteudo-about .pcard .img-box img{
+	width: 220px;
+	margin: 0;
+}
+
+#conteudo-about .pcard .pdata{
+	background-color: #0088AA;
+	font-size: 0.6em;
+	color: white;
+	height: 100px;
+	text-align: center;
+}

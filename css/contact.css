@@ -1,0 +1,22 @@
+#contact-form{
+	width: 600px;
+	padding: 35px;
+	margin: 30px auto;
+}
+
+#contact-form textarea{
+	width: 530px;
+	height: 320px;
+}
+
+#email-enviado{
+	padding: 10px;
+	text-align: center;
+	background-color: #DDF7EA;
+	border-radius: 10px;
+}
+
+#contact-form label.error{
+	font-size: 0.8em;
+	color: red;
+}

@@ -1,0 +1,219 @@
+.left-box .right-box{
+
+	border: solid 1px red;
+}
+.left-box{
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.right-box{
+	width: 35%;
+	margin-left: 10px;
+	padding: 5px;
+	display: inline-block;
+	vertical-align: top;
+	border-left: solid 1px #606062	
+}
+.title-m{
+	margin: 20px 0;
+	color: #FF7F2A;
+}
+
+.title-m .nome-m, .title-m .star-result{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#barra-busca{
+	width: 100%;
+	background-color: white;
+}
+.caract-m{
+	width: 940px;
+	margin: 20px auto 10px auto;
+	padding: 10px;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+.caract-m .orange-title{
+	margin: 20px 0;
+}
+
+.caract-m  #busca-texto{
+	margin: 20px auto;
+	width: 600px;
+}
+
+.caract-m .cat-busca-box{
+	width: 170px;
+	min-height: 210px;
+	border-right: 1px solid #c7c7c7;
+	padding: 0 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.caract-m .cat-busca-box.origem-box{
+	border-right: none;
+}
+
+.caract-m .ico-cat{
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/icon-bf.png');
+}
+.ico-cat.coleta{
+	background-position: 0 0;
+}
+.ico-cat.analise{
+	background-position: -50px 0;
+}
+.ico-cat.momento{
+	background-position: -100px 0;
+}
+.ico-cat.recursos{
+	background-position: -100px -50px;
+}
+
+.ico-cat.geral{
+	background-position: 0px -50px;
+}
+.ico-cat.origem{
+	background-position: -50px -50px;
+}
+.caract-m .cat-dados-info{
+	color: #FF7F2A;
+	font-weight: bold;
+}
+
+.caract-m .cat-busca-more-info{
+	display: none;
+	font-size: 0.8em;
+	color: #a2a2a2;
+	text-align: center;
+}
+
+.caract-m .cat-busca-valores ul{
+	list-style-type: none;
+	margin: 0 0 10px 10px;
+	font-size: 0.9em;
+	color: #A2A2A2;
+}
+
+.caract-m .cat-busca-valores ul li{
+	margin: 8px 2px;
+}
+
+.caract-m .cat-busca-valores ul li input[type=checkbox]{
+	margin: 0 5px 0 0;
+}
+
+.caract-m form .btn{
+	padding: 10px 35px;
+	
+}
+
+.cat-tags li{
+	margin: 6px 0;
+	
+}
+
+.cat-tags .tag-value{
+	background-color: #87CDDE;
+	font-size: 0.7em;
+	padding: 4px;
+	border-radius: 10px;
+	color: white;
+}
+
+#form-busca-keyw{
+	display: none;
+}
+
+.artigo-original{
+	padding-top: 10px;
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+h3.m-title{
+	color: #FF7F2A;
+}
+
+.artigo-original .ao-title, .ferramentas-metodo .fm-title, .publicacoes-metodo .pm-title{
+	color: #FF7F2A;
+	font-size: 1.2em;
+	line-height: 30px;
+}
+
+.artigo-original .ao-title span{
+	font-size: 0.9em;
+}
+.ferramentas-metodo{
+	width: 35%;
+	padding: 10px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	border-left:1px solid #c7c7c7;
+}
+
+.fm-cards{
+	margin-bottom: 10px;
+}
+
+.fm-cards .fmc-img, .fmc-desc{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.fm-cards .fmc-img img, .fm-cards .fmc-img {
+	height: 100px;
+}
+
+.fm-cards .fmc-desc{
+	display: inline-block;
+	width: 60%;
+	margin-left: 10px;
+}
+
+.fm-cards .fmc-title{
+	font-weight: bold;
+}
+
+
+
+.cat-tags ul{
+	margin: 0;
+}
+.pm-cards{
+	margin: 30px 0;
+}
+
+.pm-cards .pm-nome{
+	font-weight: bold;
+}
+
+.cat-busca-title .tag-name{
+	width: 150px;
+	display: inline-block;
+	font-size: 0.7em;
+	vertical-align: middle;
+}
+
+.right-box h3.m-title{
+	margin-top: -15px;
+	padding-top: 0;
+	margin-left: 20px;
+}
+
+#addCommentForm{
+	margin-left: 70px;
+	width: 290px;
+}

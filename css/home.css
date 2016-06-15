@@ -1,0 +1,13 @@
+html{
+	position: relative;
+}
+
+#pagina {
+	text-align: center;
+}
+
+#painel_apps {
+	display: inline-block;
+	width: 95%;
+	margin: 0;
+}

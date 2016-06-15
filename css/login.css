@@ -1,0 +1,129 @@
+﻿/* DEFINE ANIMAÇÃO PARA, PRINCIPALMENTE, BOX DE MENSAGENS */
+@keyframes amplia_altura {
+	from {height: 0px;}
+	to {height: 21px;}
+}
+
+@-moz-keyframes amplia_altura { /* Firefox */
+	from {height: 0px;}
+	to {height: 21px;}
+}
+
+@-webkit-keyframes amplia_altura { /* Safari and Chrome */
+	from {height: 0px;}
+	to {height: 21px;}
+}
+/* FIM DA DEFINIÇÃO DE ANIMAÇÃO */
+html, body{
+	min-height: 100%;
+	height: 100%;
+}
+
+#pagina {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../imagens/logo_login.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.site-link-img-box{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+
+.site-link-img-box a{
+	display: block;
+}
+
+.site-link-img-box a:hover{
+	text-decoration: none;
+}
+
+#titulo-login {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#titulo-login h1, #titulo-login h3 {
+	margin: 0;
+}
+
+#titulo-recuperacao h1 {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#titulo-recuperacao h3{
+	margin: 40px 0 40px 0;
+	text-align: center;
+	font-size: 1.0em;
+	line-height: 30px;
+}
+
+#titulo-recuperacao-sucesso h1, #titulo-recuperacao-sucesso h3{
+	margin-bottom: 40px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.email-recuperacao{
+	text-decoration: underline;
+	font-size: 1.3em;
+}
+
+.text-min{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.text-min a{
+	text-decoration: underline;
+}
+ 
+#area-usuario {
+	position: relative;
+	top: 30%;
+	max-width: 650px;
+	max-height: 400px;
+	margin: 0 auto;
+}
+
+#area-usuario a:link, a:visited, a:active{
+	color: #ffffff;
+	font-size: 14pt;
+}
+
+#area-usuario #area-login {
+	width: 511px;
+	margin: 0 auto;
+}
+
+#area-usuario #area-login label.control-label {
+	font-size: 18pt;
+	line-height: 25px;
+}
+
+#area-usuario #area-login .controls {
+	position: relative;
+}
+
+#area-usuario #area-login input {
+	height: 25px;
+	min-width: 250px;
+}
+
+#area-usuario #area-recuperacao-conta {
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
+
+#bot-email{
+	float: right;
+	margin-right: 50px;
+}

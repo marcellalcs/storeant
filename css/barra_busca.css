@@ -1,0 +1,100 @@
+#barra-busca{
+	width: 100%;
+	background-color: white;
+}
+
+#barra-busca #barra-busca-box{
+	width: 1046px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+#barra-busca #barra-busca-box .orange-title{
+	margin: 20px 0;
+}
+
+
+#barra-busca #barra-busca-box #busca-texto{
+	margin: 20px auto;
+	width: 600px;
+	
+}
+
+#barra-busca #barra-busca-box .cat-busca-box{
+	width: 246px;
+	height: 270px;
+	border-right: 1px solid #c7c7c7;
+	padding: 0 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#barra-busca #barra-busca-box .cat-busca-box.recursos-box{
+	border-right: none;
+}
+
+#barra-busca #barra-busca-box .ico-cat{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url('../img/icon-bf.png');
+}
+.ico-cat.coleta{
+	background-position: 0 0;
+}
+.ico-cat.analise{
+	background-position: -50px 0;
+}
+.ico-cat.momento{
+	background-position: -100px 0;
+}
+.ico-cat.general{
+	background-position: 0px -50px;
+}
+.ico-cat.origem{
+	background-position: -50px -50px;
+}
+
+#barra-busca #barra-busca-box .cat-dados-info{
+	color: #FF7F2A;
+	font-weight: bold;
+}
+
+#barra-busca #barra-busca-box  .cat-busca-more-info{
+	display: none;
+	font-size: 0.8em;
+	color: #a2a2a2;
+	text-align: center;
+}
+
+#barra-busca #barra-busca-box  .cat-busca-valores ul{
+	list-style-type: none;
+	margin: 0 0 10px 10px;
+	font-size: 0.9em;
+	color: #A2A2A2;
+}
+
+#barra-busca #barra-busca-box  .cat-busca-valores ul li{
+	margin: 8px 2px;
+}
+
+#barra-busca #barra-busca-box  .cat-busca-valores ul li input[type=checkbox]{
+	margin: 0 5px 0 0;
+}
+
+
+#barra-busca form .btn{
+	padding: 10px 35px;
+	
+}
+
+#form-busca-keyw{
+	display: none;
+}
+
+#box-keyword{
+	margin: 10px auto;
+	width: 700px;
+	
+}

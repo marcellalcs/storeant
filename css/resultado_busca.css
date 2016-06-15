@@ -1,0 +1,61 @@
+#criterios-result-pesquisa{
+	font-size: 0.9em;
+	color: #88aaff;
+}
+#criterios-result-pesquisa ul{
+	margin: 20px auto;
+}
+#criterios-result-pesquisa ul li{
+	float: left;
+	margin-left: 5px;
+
+}
+
+#criterios-result-pesquisa ul li .tag-value{
+	padding: 5px;
+	background-color: #88aaff;
+	color: white;
+	border-radius: 6px;
+	font-size: 0.8em;
+	line-height: 20px;
+}
+
+#qte-results{
+	margin: 20px 0;
+	color: #ffcc00;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+.box-result-pesquisa{
+	color:#333;
+}
+
+.title-result{
+	display: inline-block;
+}
+.stars-result{
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+.stars-result ul{
+	margin: 0;
+}
+
+.stars-result .star-ranking li{
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+	background-image: url('../img/stars.png');
+}
+.star-yellow{
+	background-position: 0 0;
+}
+.star-gray{
+	background-position: 0px -28px;
+}
+
+.box-result-pesquisa-nm{
+	color:#333;
+	text-align: center;
+}

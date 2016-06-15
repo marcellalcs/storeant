@@ -1,0 +1,55 @@
+#rodape footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#rodape-area-botoes {
+	width: 1014px;
+	margin: 0px auto;
+	padding: 0 5px;
+	position: relative;
+	text-align: right;
+	top: 9px;
+}
+
+.btn-rodape {
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: 35px;
+	width: 85px;
+	min-height: 40px;
+	height: auto;
+	padding: 5px;
+	margin: 0 3px;
+	text-align: center;
+	border-radius: 5px;
+	color: #ffffff;
+	background-color: #9acd3d;
+	cursor: pointer;
+}
+
+.btn-rodape:hover {
+	position: relative;
+	top: -3px;
+}
+
+#rodape-area-verde {
+	width: 100%;
+	height: auto;
+	background-color: #9acd3d;
+	padding: 13px 0;
+}
+
+#rodape-area-links {
+	width: 1014px;
+	margin: 0 auto;
+	padding: 0 5px;
+	text-align: center;
+}
+
+#rodape-area-links a.link-rodape{
+	color: #ffffff;
+	margin: 0 7px;
+}

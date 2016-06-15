@@ -1,0 +1,194 @@
+/* CSS do falso input(virtual input) */
+.acm-virtual-input{
+	display: inline-block;
+	vertical-align: top;
+	line-height: 20px;
+	padding: 4px 6px;
+	color: #555555;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+			box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	   -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+		 -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+			transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.acm-virtual-input.acm-focus{
+	border-color: rgba(154, 205,61, 0.8);
+	outline: 0;
+	outline: thin dotted \9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(154, 205,61, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(154, 205,61, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(154, 205,61, 0.6);
+}
+.acm-virtual-input.acm-focus.form-radical-red{
+	border-color: rgba(257, 54, 86, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(257, 54, 86, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(257, 54, 86, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(257, 54, 86, 1);
+}
+.acm-virtual-input.acm-focus.form-flamingo-red{
+	border-color: rgba(240, 86, 76, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(240, 86, 76, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(240, 86, 76, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(240, 86, 76, 1);
+}
+.acm-virtual-input.acm-focus.form-neon-orange{
+	border-color: rgba(255, 141, 65, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 141, 65, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 141, 65, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 141, 65, 1);
+}
+.acm-virtual-input.acm-focus.form-lightning-yellow{
+	border-color: rgba(250, 197, 37, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(250, 197, 37, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(250, 197, 37, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(250, 197, 37, 1);
+}
+.acm-virtual-input.acm-focus.form-fern-green{
+	border-color: rgba(87, 187, 110, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(87, 187, 110, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(87, 187, 110, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(87, 187, 110, 1);
+}
+.acm-virtual-input.acm-focus.form-turquoise-green{
+	border-color: rgba(66, 222, 188, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(66, 222, 188, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(66, 222, 188, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(66, 222, 188, 1);
+}
+.acm-virtual-input.acm-focus.form-scooter-blue{
+	border-color: rgba(39, 178, 233, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(39, 178, 233, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(39, 178, 233, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(39, 178, 233, 1);
+}
+.acm-virtual-input.acm-focus.form-royal-blue{
+	border-color: rgba(47, 85, 235, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(47, 85, 235, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(47, 85, 235, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(47, 85, 235, 1);
+}
+.acm-virtual-input.acm-focus.form-heliotrope-purple{
+	border-color: rgba(197, 138, 255, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(197, 138, 255, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(197, 138, 255, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(197, 138, 255, 1);
+}
+.acm-virtual-input.acm-focus.form-heart-purple{
+	border-color: rgba(153, 51, 204, 0.8);
+	outline: 0;
+	outline: thin dotted \9;/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(153, 51, 204, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(153, 51, 204, 0.6);
+		 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(153, 51, 204, 1);
+}
+/* Fim - CSS do falso input(virtual input) */
+/* CSS do item */
+.acm-item-box, .acm-item, .acm-virtual-input textarea{
+	display: inline-block;
+	margin: 0;
+}
+.acm-item-box{
+	vertical-align: top;
+	margin: 0px 2px 1px 0px;
+	line-height: 17px;
+	background-color: #F5F5F5;
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	   -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+		 -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+			transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.acm-item{
+	padding: 1px 3px;
+	line-height: 15px;
+}
+.acm-text, .acm-x{
+	display: inline-block;
+	vertical-align: top;
+}
+.acm-text{
+	font-size: 14px;
+}
+.acm-x{
+	width: 15px;
+	height: 15px;
+	background: url(images/ui-icons_888888_256x240.png) -80px -128px no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+.acm-x:hover{
+	background-image: url(images/ui-icons_cd0a0a_256x240.png);
+}
+/* Fim - CSS do item */
+/* CSS da área de entrada de texto */
+.acm-virtual-input textarea{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	overflow: hidden;
+	resize: none;
+	border: none;
+	box-shadow: none;
+}
+.acm-virtual-input textarea:hover, .acm-virtual-input textarea:focus{
+	border: none;
+	box-shadow: none;
+}
+/* Fim - CSS da área de entrada de texto */
+/* CSS da sugestão */
+.acm-rst-img-box, .acm-rst-info-box{
+	display: inline-block;
+	vertical-align: top;
+	height: 32px;
+	overflow: hidden;
+}
+.acm-rst-img-box{
+	width: 32px;
+}
+.acm-rst-img-box img{
+	width: 28px;
+	height: 28px;
+	padding: 1px;
+	border: 1px solid #777;
+}
+.acm-rst-info-box{
+	margin-left: 5px;
+	line-height: 15px;
+}
+.acm-rst-info-box .acm-rst-label{
+	font-size: 0.8em;
+}
+.acm-rst-info-box .acm-rst-desc{
+	font-size: 0.7em;
+	color: #777777;
+	vertical-align: text-top;
+}
+/* Fim - CSS da sugestão */
