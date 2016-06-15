@@ -1,0 +1,166 @@
+/* Definições globais */
+.select-conteiner {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	margin: 6px 0;
+}
+
+.select-botao {
+	display: inline-block;
+	vertical-align: bottom;
+	width: auto;
+	height: auto;
+	line-height: 16px;
+	padding: 6px 7px;
+	font-size: 16px;
+	border: 1px solid #CCCCCC;
+	background-color: #FAA871;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.select-botao:hover {
+	filter: alpha(opacity=75);	/* IE */
+	-moz-opacity: 0.75;	/* FF 3.6 */
+	opacity: 0.75;	/* Browsers mais novos */
+}
+
+.select-botao .select-botao-text, .select-botao .select-botao-arrow {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.select-botao .select-botao-text {
+	width: auto;
+	height: auto;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.select-botao .select-botao-arrow {
+	width: 14px;
+	height: 14px;
+	background-image: url("images/select-arrow.png");
+	background-position: -13px 1px;
+}
+
+.select-botao-aberto {
+	border-top: 1px solid #FF8D41;
+	border-left: 1px solid #FF8D41;
+	border-right: 1px solid #FF8D41;
+	border-bottom: none;
+	background-color: #FFFFFF;
+	position: relative;
+	top: 1px;
+	z-index: 4;
+}
+
+.select-botao-aberto:hover {
+	filter: alpha(opacity=100);	/* IE */
+	-moz-opacity: 1.0;	/* FF 3.6 */
+	opacity: 1.0;	/* Browsers mais novos */
+}
+
+.select-botao-aberto .select-botao-text {
+	color: #FF8D41;
+}
+
+.select-botao-aberto .select-botao-arrow {
+	background-position: 0 1px;
+}
+
+.select-box {
+	display: none;
+	border: 1px solid #FF8D41;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	width: auto;
+	height: auto;
+}
+
+.select-box .select-box-celula input[type="radio"],
+.select-box .select-box-celula input[type="checkbox"] {
+	display: none;
+}
+
+
+.select-box .select-box-celula, .select-box .select-box-celula label {
+	display: block;
+	color: #4A4A4A;
+	background-color: #FFFFFF;
+	height: auto;
+	overflow: hidden;
+}
+
+.select-box .select-box-celula {
+	margin: 1px;
+	border: 1px solid #CCC;
+	position: relative;
+}
+
+.select-box .select-box-celula label {
+	padding: 2px 4px;
+	margin: 0;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+}
+
+.select-box .select-box-celula label:hover, .select-box .select-box-celula-selecionada label {
+	cursor: pointer;
+}
+
+.select-box .select-box-celula label:hover {
+	filter: alpha(opacity=75);	/* IE */
+	-moz-opacity: 0.75;	/* FF 3.6 */
+		 opacity: 0.75;	/* Browsers mais novos */
+}
+
+.select-box .select-box-celula-selecionada label {
+	background-color: #FFBD81;
+	color: #FFF;
+}
+/* Fim Definições globais */
+
+/* Complementos */
+.select-radius .select-botao {
+	border-radius: 3px;
+}
+
+.select-radius .select-botao-aberto {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+/* Fim Complementos */
+
+/* Definições do modo grade */
+.select-grade .select-box {
+	min-width: 263px;
+	max-width: 375px;
+	padding: 5px 0 5px 5px;
+}
+
+.select-grade .select-box .select-box-celula {
+	float: left;
+}
+/* Fim Definições do modo grade */
+
+/* Definições do modo lista */
+.select-lista .select-botao-aberto {
+	top: 0;
+}
+
+.select-lista .select-box {
+	padding: 5px;
+}
+
+.select-lista .select-box .select-box-celula {
+	float: left;
+	width: 96%;
+	margin: 1px 2%;
+}
+/* Fim Definições do modo lista */
